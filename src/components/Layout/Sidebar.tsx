@@ -37,7 +37,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
       {/* Mobile overlay */}
       {isOpen && (
         <div 
-          className="fixed inset-0 bg-black bg-opacity-50 z-40 lg:hidden"
+          className="fixed inset-0 bg-black bg-opacity-70 z-40 lg:hidden"
           onClick={onClose}
         />
       )}
@@ -45,23 +45,23 @@ export const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
       {/* Sidebar */}
       <aside
         className={clsx(
-          'fixed inset-y-0 left-0 z-50 w-64 bg-white border-r border-gray-200 transform transition-transform duration-300 ease-in-out',
+          'fixed inset-y-0 left-0 z-50 w-64 bg-primary-100 border-r border-primary-200 transform transition-transform duration-300 ease-in-out',
           'lg:translate-x-0 lg:static lg:inset-0',
           isOpen ? 'translate-x-0' : '-translate-x-full'
         )}
       >
         <div className="flex flex-col h-full">
           {/* Logo */}
-          <div className="flex items-center justify-between h-16 px-6 border-b border-gray-200">
+          <div className="flex items-center justify-between h-16 px-6 border-b border-primary-200">
             <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-to-br from-primary-500 to-secondary-500 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">H</span>
+              <div className="w-8 h-8 bg-gradient-to-br from-accent-400 to-accent-600 rounded-lg flex items-center justify-center ring-2 ring-accent-400">
+                <span className="text-primary-900 font-bold text-sm">H</span>
               </div>
-              <span className="text-xl font-bold text-gray-900">HLPFL</span>
+              <span className="text-xl font-bold text-white">HLPFL</span>
             </div>
             <button
               onClick={onClose}
-              className="lg:hidden text-gray-500 hover:text-gray-700"
+              className="lg:hidden text-primary-400 hover:text-accent-400 transition-colors"
             >
               <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -79,13 +79,13 @@ export const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
                   to={item.href}
                   onClick={onClose}
                   className={clsx(
-                    'flex items-center space-x-3 px-4 py-3 rounded-lg text-sm font-medium transition-colors duration-200',
+                    'flex items-center space-x-3 px-4 py-3 rounded-lg text-sm font-medium transition-all duration-200',
                     isActive
-                      ? 'bg-primary-50 text-primary-600'
-                      : 'text-gray-700 hover:bg-gray-50 hover:text-gray-900'
+                      ? 'bg-accent-500/20 text-accent-400 border border-accent-500/50'
+                      : 'text-primary-300 hover:bg-primary-200 hover:text-white'
                   )}
                 >
-                  <item.icon className={clsx('w-5 h-5', isActive ? 'text-primary-600' : 'text-gray-400')} />
+                  <item.icon className={clsx('w-5 h-5', isActive ? 'text-accent-400' : 'text-primary-500')} />
                   <span>{item.name}</span>
                 </Link>
               );
@@ -93,16 +93,16 @@ export const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
           </nav>
 
           {/* User Section */}
-          <div className="p-4 border-t border-gray-200">
+          <div className="p-4 border-t border-primary-200">
             <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 bg-gradient-to-br from-primary-400 to-primary-600 rounded-full flex items-center justify-center">
-                <span className="text-white font-medium">NR</span>
+              <div className="w-10 h-10 bg-gradient-to-br from-accent-400 to-accent-600 rounded-full flex items-center justify-center ring-2 ring-accent-400">
+                <span className="text-primary-900 font-bold">NR</span>
               </div>
               <div className="flex-1 min-w-0">
-                <p className="text-sm font-medium text-gray-900 truncate">Noah Rank</p>
-                <p className="text-xs text-gray-500 truncate">Director of Sales</p>
+                <p className="text-sm font-medium text-white truncate">Noah Rank</p>
+                <p className="text-xs text-accent-400 truncate">Director of Sales</p>
               </div>
-              <button className="text-gray-400 hover:text-gray-600">
+              <button className="text-primary-500 hover:text-accent-400 transition-colors">
                 <Settings className="w-5 h-5" />
               </button>
             </div>

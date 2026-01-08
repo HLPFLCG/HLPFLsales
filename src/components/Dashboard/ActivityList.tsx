@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone, Mail, MessageSquare, CheckCircle, XCircle, Clock } from 'lucide-react';
+import { Phone, Mail, MessageSquare, CheckCircle, Clock } from 'lucide-react';
 import { SalesActivity } from '../../types';
 import { format } from 'date-fns';
 

@@ -4,41 +4,41 @@
 
 @layer base {
   * {
-    @apply border-border;
+    @apply border-primary-200;
   }
   body {
-    @apply bg-gray-50 text-gray-900;
+    @apply bg-primary-50 text-primary-900;
   }
 }
 
 @layer components {
-  /* Custom scrollbar */
+  /* Custom scrollbar - dark theme */
   .scrollbar-thin::-webkit-scrollbar {
     width: 6px;
     height: 6px;
   }
   
   .scrollbar-thin::-webkit-scrollbar-track {
-    background: #f1f5f9;
+    background: #1f1f1f;
   }
   
   .scrollbar-thin::-webkit-scrollbar-thumb {
-    background: #cbd5e1;
+    background: #404040;
     border-radius: 3px;
   }
   
   .scrollbar-thin::-webkit-scrollbar-thumb:hover {
-    background: #94a3b8;
+    background: #4a4a4a;
   }
 
-  /* Gradient text */
+  /* Gradient text - accent green */
   .gradient-text {
-    @apply bg-gradient-to-r from-primary-600 to-secondary-600 bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-accent-400 to-accent-600 bg-clip-text text-transparent;
   }
 
-  /* Card hover effect */
+  /* Card hover effect - more subtle */
   .card-hover {
-    @apply transition-all duration-300 hover:shadow-lg hover:scale-[1.02];
+    @apply transition-all duration-300 hover:shadow-xl hover:border-accent-500 hover:shadow-accent-500/10;
   }
 }
 
@@ -59,7 +59,7 @@
   }
 }
 
-/* Custom animations */
+/* Custom animations - smoother, more sophisticated */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -72,7 +72,7 @@
 }
 
 .animate-fade-in {
-  animation: fadeIn 0.3s ease-out;
+  animation: fadeIn 0.4s ease-out;
 }
 
 @keyframes slideIn {
@@ -86,4 +86,31 @@
 
 .animate-slide-in {
   animation: slideIn 0.3s ease-out;
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 5px rgba(0, 255, 65, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(0, 255, 65, 0.6);
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+/* Glass morphism effect */
+.glass {
+  background: rgba(20, 20, 20, 0.8);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Accent border effect */
+.accent-border {
+  border: 1px solid transparent;
+  background: linear-gradient(#1f1f1f, #1f1f1f) padding-box,
+              linear-gradient(135deg, #00ff41, #00cc00) border-box;
 }
