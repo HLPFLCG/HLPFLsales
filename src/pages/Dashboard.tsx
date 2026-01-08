@@ -30,9 +30,15 @@ export const Dashboard: React.FC = () => {
   return (
     <div className="space-y-8">
       {/* Header */}
-      <div>
-        <h1 className="text-3xl font-bold text-white">Welcome back, Noah!</h1>
-        <p className="mt-2 text-primary-400">Here's what's happening with your sales team today.</p>
+      <div className="bg-gradient-to-r from-primary-100 to-primary-200 rounded-xl p-6 border border-primary-300 shadow-lg">
+        <h1 className="text-3xl font-bold text-white">Welcome back, Noah! 🚀</h1>
+        <p className="mt-2 text-primary-300">Here's what's happening with your sales team today.</p>
+        <div className="mt-4 p-4 bg-primary-200 border border-primary-300 rounded-lg">
+          <p className="text-sm text-accent-400 italic">
+            "Your team's success is built on your leadership. This platform is your command center -
+            every feature designed to help you train, inspire, and lead your team to victory. Let's crush it today! 💪"
+          </p>
+        </div>
       </div>
 
       {/* Quick Stats */}
