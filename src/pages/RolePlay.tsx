@@ -5,7 +5,6 @@ import {
   CheckCircle, 
   XCircle,
   ArrowRight,
-  ArrowLeft,
   Users,
   Target,
   Lightbulb

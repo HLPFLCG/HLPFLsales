@@ -1,5 +1,5 @@
 import React from 'react';
-import { LucideIcon } from 'lucide-react';
+import { LucideIcon, TrendingUp, TrendingDown } from 'lucide-react';
 
 interface MetricCardProps {
   title: string;
@@ -13,24 +13,24 @@ interface MetricCardProps {
 
 const colorStyles = {
   blue: {
-    bg: 'bg-blue-50',
-    icon: 'text-blue-600',
-    border: 'border-blue-200'
+    bg: 'bg-primary-200',
+    icon: 'text-blue-400',
+    border: 'border-primary-300'
   },
   green: {
-    bg: 'bg-green-50',
-    icon: 'text-green-600',
-    border: 'border-green-200'
+    bg: 'bg-primary-200',
+    icon: 'text-accent-400',
+    border: 'border-primary-300'
   },
   purple: {
-    bg: 'bg-purple-50',
-    icon: 'text-purple-600',
-    border: 'border-purple-200'
+    bg: 'bg-primary-200',
+    icon: 'text-purple-400',
+    border: 'border-primary-300'
   },
   orange: {
-    bg: 'bg-orange-50',
-    icon: 'text-orange-600',
-    border: 'border-orange-200'
+    bg: 'bg-primary-200',
+    icon: 'text-orange-400',
+    border: 'border-primary-300'
   }
 };
 
@@ -46,26 +46,27 @@ export const MetricCard: React.FC<MetricCardProps> = ({
   const styles = colorStyles[color];
 
   return (
-    <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
+    <div className="bg-primary-100 rounded-xl shadow-lg border border-primary-200 p-6 card-hover">
       <div className="flex items-center justify-between mb-4">
-        <div className={`p-3 rounded-lg ${styles.bg}`}>
+        <div className={`p-3 rounded-lg ${styles.bg} border ${styles.border}`}>
           <Icon className={`w-6 h-6 ${styles.icon}`} />
         </div>
         {trend !== 'stable' && (
           <div className={`flex items-center space-x-1 ${
-            trend === 'up' ? 'text-green-600' : 'text-red-600'
+            trend === 'up' ? 'text-accent-400' : 'text-red-400'
           }`}>
             {trend === 'up' ? (
-              <span className="text-sm font-medium">↑ {change}%</span>
+              <TrendingUp className="w-4 h-4" />
             ) : (
-              <span className="text-sm font-medium">↓ {change}%</span>
+              <TrendingDown className="w-4 h-4" />
             )}
+            <span className="text-sm font-medium">{change}%</span>
           </div>
         )}
       </div>
-      <h3 className="text-sm font-medium text-gray-600 mb-1">{title}</h3>
-      <p className="text-3xl font-bold text-gray-900">{value}</p>
-      <p className="text-sm text-gray-500 mt-1">{period}</p>
+      <h3 className="text-sm font-medium text-primary-400 mb-1">{title}</h3>
+      <p className="text-3xl font-bold text-white">{value}</p>
+      <p className="text-sm text-primary-500 mt-1">{period}</p>
     </div>
   );
 };

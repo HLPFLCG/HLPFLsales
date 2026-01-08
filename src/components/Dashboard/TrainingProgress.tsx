@@ -4,7 +4,6 @@ import { trainingModules } from '../../data/trainingModules';
 
 export const TrainingProgress: React.FC = () => {
   const completedModules = trainingModules.filter(m => m.completed).length;
-  const totalDuration = trainingModules.reduce((sum, m) => sum + m.duration, 0);
   const completedDuration = trainingModules
     .filter(m => m.completed)
     .reduce((sum, m) => sum + m.duration, 0);
