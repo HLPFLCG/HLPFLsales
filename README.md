@@ -1,3 +1,47 @@
+# ⚠️ IMPORTANT: How to View the App
+
+**DO NOT** open `index.html` directly in your browser! It will show a white screen.
+
+Modern JavaScript modules require a web server. Here's how to view it:
+
+## Option 1: Development Mode (Recommended)
+
+```bash
+npm install
+npm run dev
+```
+
+Then open: `http://localhost:3000`
+
+## Option 2: Production Preview
+
+```bash
+npm install
+npm run build
+npm run preview
+```
+
+Then open: `http://localhost:4173`
+
+## Option 3: Deploy to Hosting
+
+### Vercel (Easiest)
+1. Push to GitHub
+2. Go to vercel.com
+3. Import your GitHub repo
+4. Deploy (automatic!)
+
+### Netlify
+1. Run `npm run build`
+2. Drag and drop the `dist` folder to netlify.com
+
+### Your Own Server
+1. Run `npm run build`
+2. Upload the `dist` folder contents to your web server
+3. Make sure your server serves `index.html` for all routes
+
+---
+
 # 🚀 Noah's Personal Command Center
 
 ## For Noah Rank - Trader • Artist • Entrepreneur
@@ -29,25 +73,6 @@ This isn't just another generic app. Every single detail was personalized from o
 - "If I beat your bot you owe me a GT3RS" - Still on 😂
 - The "bitch button" joke - No declining calls here
 - From GR (Grand Rapids) - Your city
-
----
-
-## 🚀 Quick Start
-
-1. **Install dependencies:**
-   ```bash
-   npm install
-   ```
-
-2. **Start the dev server:**
-   ```bash
-   npm run dev
-   ```
-
-3. **Open in your browser:**
-   Visit `http://localhost:3000`
-
-The app loads instantly - dark theme, HLPFL green accents, fully responsive on mobile and desktop.
 
 ---
 
@@ -134,21 +159,6 @@ Every element was customized from our actual conversations:
 
 ---
 
-## 🏗️ Build for Production
-
-```bash
-npm run build
-```
-
-Creates an optimized build in the `dist` folder:
-- **HTML**: 0.58 KB
-- **CSS**: 12 KB (3 KB gzipped)
-- **JS**: 157 KB (49 KB gzipped)
-
-Deploy anywhere: Vercel, Netlify, AWS, your own server.
-
----
-
 ## 💬 The Real Message
 
 Noah,
@@ -175,10 +185,10 @@ Keep going, bro. The GT3 RS is waiting. 🏎️💚
 
 ## 🎯 Next Steps
 
-1. **Customize Further**: The code is clean and commented - add whatever you need
-2. **Connect Real Data**: Hook up to your actual trading API or CRM
-3. **Add More Features**: Whatever helps you build HLPFL, Zaitsev, and Alki
-4. **Deploy It**: Show your team, investors, or just keep it for yourself
+1. **Run It Locally**: Use `npm run dev` (never open index.html directly!)
+2. **Customize Further**: The code is clean and commented - add whatever you need
+3. **Connect Real Data**: Hook up to your actual trading API or CRM
+4. **Deploy It**: Use Vercel, Netlify, or any hosting service
 
 ---
 
