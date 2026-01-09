@@ -1,7 +1,7 @@
 {
   "name": "hlpfl-sales-training",
   "version": "1.0.0",
-  "description": "Sales training platform for Noah Rank - Director of Sales at HLPFL",
+  "description": "Noah's Personal Sales Command Center - A gift from your best friend to help you lead and inspire your HLPFL sales team",
   "private": true,
   "scripts": {
     "dev": "vite",
