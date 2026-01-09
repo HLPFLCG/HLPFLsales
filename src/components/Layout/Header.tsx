@@ -21,9 +21,12 @@ export const Header: React.FC<HeaderProps> = ({ onMenuClick }) => {
             <Menu className="w-6 h-6" />
           </button>
           
-          <div className="hidden md:flex items-center space-x-2 text-sm text-primary-400">
-            <span className="font-medium text-white">HLPFL</span>
-            <span className="text-accent-400">Sales Training</span>
+          <div className="hidden md:flex items-center space-x-3">
+            <img src="/hlpfl-logo.svg" alt="HLPFL Logo" className="h-8 w-auto" />
+            <div className="flex items-center space-x-2 text-sm text-primary-400">
+              <span className="font-medium text-white">HLPFL</span>
+              <span className="text-accent-400">Sales Training</span>
+            </div>
           </div>
         </div>
 
