@@ -18,6 +18,11 @@
         align-items: center;
         justify-content: center;
         z-index: 9999;
+        transition: opacity 0.3s ease-out;
+      }
+      #loading.hidden {
+        opacity: 0;
+        pointer-events: none;
       }
       .loader-content {
         text-align: center;
@@ -48,12 +53,6 @@
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
         font-size: 0.875rem;
       }
-      #root:empty + #loading {
-        display: flex;
-      }
-      #root:not(:empty) + #loading {
-        display: none;
-      }
     </style>
   </head>
   <body>
@@ -67,12 +66,39 @@
     </div>
     <script type="module" src="/src/main.tsx"></script>
     <script>
-      // Fallback for direct file access
+      // Hide loading screen when React mounts
+      function hideLoadingScreen() {
+        const loading = document.getElementById('loading');
+        if (loading) {
+          loading.classList.add('hidden');
+          setTimeout(() => {
+            loading.style.display = 'none';
+          }, 300);
+        }
+      }
+
+      // Listen for React to mount
+      const observer = new MutationObserver((mutations) => {
+        const root = document.getElementById('root');
+        if (root && root.hasChildNodes()) {
+          hideLoadingScreen();
+          observer.disconnect();
+        }
+      });
+
+      // Start observing the root element
+      const root = document.getElementById('root');
+      if (root) {
+        observer.observe(root, { childList: true });
+      }
+
+      // Fallback: Hide loading after 5 seconds regardless
       setTimeout(() => {
         const root = document.getElementById('root');
         const loading = document.getElementById('loading');
         
         if (root.innerHTML === '' && window.location.protocol === 'file:') {
+          // Show error message for direct file access
           loading.innerHTML = `
             <div class="loader-content" style="max-width: 500px;">
               <div style="color: #ef4444; font-size: 2rem; margin-bottom: 1rem;">⚠️</div>
@@ -91,8 +117,14 @@
               </div>
             </div>
           `;
+        } else {
+          // Force hide loading after timeout
+          hideLoadingScreen();
         }
-      }, 1000);
+      }, 5000);
+
+      // Also expose hideLoadingScreen globally for React to call
+      window.hideLoadingScreen = hideLoadingScreen;
     </script>
   </body>
 </html>
