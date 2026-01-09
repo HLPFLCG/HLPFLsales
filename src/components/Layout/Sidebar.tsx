@@ -53,11 +53,8 @@ export const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
         <div className="flex flex-col h-full">
           {/* Logo */}
           <div className="flex items-center justify-between h-16 px-6 border-b border-primary-200">
-            <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-to-br from-accent-400 to-accent-600 rounded-lg flex items-center justify-center ring-2 ring-accent-400">
-                <span className="text-primary-900 font-bold text-sm">H</span>
-              </div>
-              <span className="text-xl font-bold text-white">HLPFL</span>
+            <div className="flex items-center space-x-3">
+              <img src="/hlpfl-logo.svg" alt="HLPFL Logo" className="h-10 w-auto" />
             </div>
             <button
               onClick={onClose}
