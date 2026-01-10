@@ -4,6 +4,9 @@
   "description": "Noah's Personal Sales Command Center - A gift for Noah Rank at HLPFL",
   "type": "module",
   "private": true,
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

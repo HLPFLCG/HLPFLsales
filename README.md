@@ -23,22 +23,30 @@ npm run preview
 
 Then open: `http://localhost:4173`
 
-## Option 3: Deploy to Hosting
+## Option 3: Deploy to Cloudflare Pages ☁️ (READY TO GO!)
 
-### Vercel (Easiest)
-1. Push to GitHub
-2. Go to vercel.com
-3. Import your GitHub repo
-4. Deploy (automatic!)
+**👉 [Complete Cloudflare Pages Deployment Guide →](./CLOUDFLARE_DEPLOY.md)**
 
-### Netlify
-1. Run `npm run build`
-2. Drag and drop the `dist` folder to netlify.com
+### Quick Deploy to Cloudflare:
+1. Go to https://dash.cloudflare.com/
+2. Click "Workers & Pages" → "Create application" → "Pages"
+3. Connect GitHub repo: `HLPFLCG/HLPFLsales`
+4. Branch: `claude/noah-ranking-app-exC88`
+5. Build command: `npm run build`
+6. Build output: `dist`
+7. Deploy! ✅
 
-### Your Own Server
-1. Run `npm run build`
-2. Upload the `dist` folder contents to your web server
-3. Make sure your server serves `index.html` for all routes
+Your app will be live at: `https://your-project.pages.dev`
+
+**Everything is pre-configured and ready to deploy!**
+
+### Alternative Hosting:
+
+#### Vercel
+1. Push to GitHub → Go to vercel.com → Import repo → Deploy
+
+#### Netlify
+1. Run `npm run build` → Drag `dist` folder to netlify.com
 
 ---
 
