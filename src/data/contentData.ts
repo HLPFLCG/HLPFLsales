@@ -22,8 +22,8 @@ export const masterPlanSections: ContentSection[] = [
     subsections: [
       {
         id: 'partner-intro',
-        title: 'You\'re Not Just a Client—You\'re a Partner',
-        content: 'Noah, you\'re not just a client—you\'re a partner. Your 10% stake in Zaitsev Holding Group means your success directly amplifies mine, and vice versa. This document isn\'t a sales pitch; it\'s a blueprint for building generational wealth together.',
+        title: 'You\'re Not Just a Client—You\'re a Best Friend & Brother',
+        content: 'Noah, you\'re not just a client—you\'re a best friend and brother. Your 10% stake in Zaitsev Holding Group means your success directly amplifies mine, and vice versa. This document isn\'t a sales pitch; it\'s a blueprint for building generational wealth together.',
         type: 'highlight',
         highlightType: 'partner'
       },
@@ -38,15 +38,15 @@ export const masterPlanSections: ContentSection[] = [
             ['Files paperwork, moves on', 'Ongoing strategic partnership'],
             ['Generic templates', 'Custom structure integrated with Zaitsev ecosystem'],
             ['Hourly billing adds up', 'Partner pricing with equity alignment'],
-            ['You\'re a number', 'You\'re family (Article 1.7 of Zaitsev Operating Agreement)'],
+            ['You\'re a number', 'You\'re family—best friend & brother (Article 1.7 of Zaitsev Operating Agreement)'],
             ['No skin in the game', 'Your success = my success (10% allocation)']
           ]
         }
       },
       {
         id: 'payout-future',
-        title: 'Your Future Starts Tomorrow',
-        content: 'Your ~$10K payout tomorrow is the beginning. The structure we\'re building today will handle $100K months, $1M years, and eventual exits.',
+        title: 'Your Future Starts Today',
+        content: 'Your ~$10K payout today is the beginning. The structure we\'re building right now will handle $100K months, $1M years, and eventual exits.',
         type: 'highlight',
         highlightType: 'success'
       }
@@ -95,8 +95,8 @@ export const masterPlanSections: ContentSection[] = [
     subsections: [
       {
         id: 'intro-checklist',
-        title: 'Tomorrow\'s Cascade',
-        content: 'Tomorrow\'s ~$10K payout triggers a cascade of planning opportunities. I\'ll handle the heavy lifting—here\'s what you need to do:',
+        title: 'Today\'s Cascade',
+        content: 'Today\'s ~$10K payout triggers a cascade of planning opportunities. I\'ll handle the heavy lifting—here\'s what you need to do:',
         type: 'text'
       },
       {
@@ -530,7 +530,7 @@ export const masterPlanSections: ContentSection[] = [
       {
         id: 'bottom-line',
         title: 'The Bottom Line',
-        content: 'Noah, this ~$10K payout is your proving ground. The structure we\'re building today—Wyoming LLCs, Ohio compliance, tax optimization, retirement accounts—scales indefinitely. Whether you\'re making $10K/month or $100K/month, the foundation is the same.',
+        content: 'Noah, this ~$10K payout TODAY is your proving ground. The structure we\'re building right now—Wyoming LLCs, Ohio compliance, tax optimization, retirement accounts—scales indefinitely. Whether you\'re making $10K/month or $100K/month, the foundation is the same.',
         type: 'highlight',
         highlightType: 'success'
       },
@@ -538,7 +538,7 @@ export const masterPlanSections: ContentSection[] = [
         id: 'what-makes-work',
         title: 'What Makes This Work',
         content: [
-          'We\'re partners, not client/vendor',
+          'We\'re best friends & brothers, not client/vendor',
           'Your success directly benefits me (Zaitsev 10%)',
           'The HLPFL ecosystem creates opportunities beyond just trading',
           'You\'re getting billionaire-level structure at partner pricing'

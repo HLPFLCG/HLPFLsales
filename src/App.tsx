@@ -4,6 +4,8 @@ import { masterPlanSections, llcGuideSections } from './data/contentData';
 import { TableOfContents, MobileTableOfContents } from './components/TableOfContents';
 import { DocumentSection } from './components/DocumentSection';
 import { LogoGallery } from './components/LogoGallery';
+import { CarShowcase } from './components/CarShowcase';
+import { RandomLogoSpawn } from './components/RandomLogoSpawn';
 
 // Header Component
 const Header = () => {
@@ -128,6 +130,9 @@ function App() {
 
   return (
     <div className="min-h-screen bg-hlpfl-dark text-gray-100">
+      {/* Random Logo Spawn on Page Load */}
+      <RandomLogoSpawn />
+
       <Header />
 
       <div className="max-w-7xl mx-auto flex">
@@ -189,7 +194,7 @@ function App() {
                 NOAH RANK
               </h1>
               <div className="text-lg text-hlpfl-gold mb-6">
-                Ohio Day Trader | Zaitsev Holding Group Partner | PRIV Artist
+                Ohio Day Trader | Zaitsev Holding Group Best Friend & Brother | PRIV Artist
               </div>
               <h2 className="text-2xl sm:text-3xl font-semibold text-hlpfl-gold-light mb-4">
                 MASTER WEALTH PROTECTION PLAN
@@ -201,9 +206,12 @@ function App() {
                 <p>Prepared by: <span className="text-white">Jim Rockel</span></p>
                 <p>Founder & CEO, HLPFL | Managing Member, Zaitsev Holding Group LLC</p>
                 <p className="text-hlpfl-gold">founder@hlpfl.org</p>
-                <p className="mt-2">January 14, 2026</p>
+                <p className="mt-2">January 15, 2026</p>
               </div>
             </div>
+
+            {/* Car Showcase - 2025 Lexus IS350 */}
+            <CarShowcase onTopStepClick={() => console.log('TopStepX clicked')} />
 
             {/* Master Plan Sections */}
             {masterPlanSections.map((section) => (
