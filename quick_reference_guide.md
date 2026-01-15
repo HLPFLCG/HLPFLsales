@@ -2,7 +2,7 @@
 
 ## Executive Summary
 
-**The Zaitsev-HLPFL Protocol** integrates your existing entities—**Zaitsev LLC** and **Hlpfl Co LLC**—into a cohesive, dynastic wealth protection structure designed for maximum asset protection, tax efficiency, and operational clarity for your Ohio-based day trading and consulting business.
+**The Zaitsev-HLPFL Protocol** integrates your existing entities—**Zaitsev LLC** and **Hlpfl Co LLC**—into a cohesive, dynastic wealth protection structure designed for maximum asset protection, tax efficiency, and operational clarity for your Ohio-based consulting and business operations.
 
 ---
 
@@ -10,7 +10,7 @@
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                    YOU (Individual)                         │
+│                    YOU (Noah Rank)                          │
 │                      Owner                                  │
 └──────────────────────┬──────────────────────────────────────┘
                        │
@@ -21,7 +21,7 @@
 │              Wyoming Holding Company                        │
 │                  "The Vault"                                │
 │                                                             │
-│  • Holds trading capital                                    │
+│  • Holds investment capital                                 │
 │  • Owns 100% of Hlpfl Co LLC                               │
 │  • Receives distributions from subsidiary                  │
 │  • Protected from operating liabilities                    │
@@ -45,15 +45,15 @@
 
 ---
 
-## Key Roles & Responsibilities
+## Key Roles &amp; Responsibilities
 
 ### Zaitsev LLC (The Vault)
 | Aspect | Details |
 |--------|---------|
 | **Jurisdiction** | Wyoming |
-| **Primary Role** | Holding Company & Trading Vehicle |
-| **Ownership** | 100% owned by you |
-| **Assets Held** | Trading capital, Hlpfl Co LLC ownership, long-term investments |
+| **Primary Role** | Holding Company &amp; Investment Vehicle |
+| **Ownership** | 100% owned by Noah |
+| **Assets Held** | Investment capital, Hlpfl Co LLC ownership, long-term investments |
 | **Public Exposure** | None (hidden from clients/public) |
 | **Liability Risk** | Minimal (asset holding only) |
 | **Ohio Tax Status** | CAT exempt, Municipal tax exempt |
@@ -76,7 +76,7 @@
 ### Day 1: Capital Deployment
 - [ ] Deposit ~$10k to personal bank account
 - [ ] Transfer $500-1,000 to Zaitsev LLC operating account
-- [ ] Transfer $9,000 to Zaitsev LLC trading account
+- [ ] Transfer $9,000 to Zaitsev LLC business account
 - [ ] Document all transfers with receipts
 
 ### Day 2-3: Ownership Transfer
@@ -91,18 +91,16 @@
 
 ### Day 6-7: Banking Setup
 - [ ] Open Zaitsev LLC business bank account
-- [ ] Open Zaitsev LLC brokerage account for trading
 - [ ] Open Hlpfl Co LLC business bank account
 - [ ] Execute banking resolutions
 
-### Day 8-14: Compliance & Documentation
+### Day 8-14: Compliance &amp; Documentation
 - [ ] Obtain general liability insurance for Hlpfl Co LLC
 - [ ] Set up accounting system for both entities
-- [ ] Prepare Member Resolution authorizing trading
+- [ ] Prepare Member Resolution authorizing business operations
 - [ ] Establish corporate minute books
 
 ### Day 15-30: Operational Launch
-- [ ] Execute first trade in Zaitsev LLC brokerage account
 - [ ] Set up Hlpfl Co LLC consulting operations
 - [ ] Establish monthly accounting reconciliation
 - [ ] Implement distribution protocols
@@ -128,8 +126,7 @@ Personal Bank Account
                │               ▼
                │    ┌─────────────────────┐
                │    │  Zaitsev LLC        │
-               │    │  Brokerage Account  │
-               │    │  (Trading)          │
+               │    │  Business Account   │
                │    │      $9,000         │
                │    └─────────────────────┘
                │
@@ -147,8 +144,8 @@ Personal Bank Account
 
 ### Ohio Tax Benefits
 
-| Tax Type | Zaitsev LLC (Trading) | Hlpfl Co LLC (Consulting) |
-|----------|----------------------|---------------------------|
+| Tax Type | Zaitsev LLC (Investments) | Hlpfl Co LLC (Consulting) |
+|----------|---------------------------|---------------------------|
 | **CAT** | EXEMPT | Exempt (under $6M) |
 | **Municipal** | EXEMPT | Liable |
 | **State Income** | 3.99% max | 3.99% max |
@@ -157,8 +154,6 @@ Personal Bank Account
 
 | Strategy | Benefit | Deadline |
 |----------|---------|----------|
-| **Trader Tax Status (TTS)** | Deduct trading expenses | Ongoing |
-| **Section 475 MTM** | Eliminate self-employment tax | April 15 |
 | **S-Corp Election** | Potential tax savings | IRS deadline |
 | **QSBS Eligibility** | Tax-free gains up to $10M | 5-year holding |
 
@@ -190,7 +185,7 @@ Personal Bank Account
 
 ---
 
-## Time & Money Savings
+## Time &amp; Money Savings
 
 ### Time Saved: 85-145 Hours
 
@@ -225,15 +220,13 @@ Personal Bank Account
 
 1. **Ohio Foreign Qualification**: Both entities properly registered
 2. **CAT Monitoring**: Track gross receipts for threshold
-3. **MTM Election**: Consider before April 15 deadline
-4. **Documentation**: Maintain detailed trading and business records
+3. **Documentation**: Maintain detailed business records
 
 ### Operational Risk
 
-1. **Trading Risk Management**: Position sizing, stop-losses, diversification
-2. **Contract Protections**: Clear scope, liability limitations
-3. **Due Diligence**: Thorough analysis before investments
-4. **Liquidity Planning**: Maintain adequate cash reserves
+1. **Contract Protections**: Clear scope, liability limitations
+2. **Due Diligence**: Thorough analysis before investments
+3. **Liquidity Planning**: Maintain adequate cash reserves
 
 ---
 
@@ -241,10 +234,10 @@ Personal Bank Account
 
 ### Year 1 Combined Income (After Tax)
 
-| Scenario | Trading | Consulting | Total |
-|----------|---------|------------|-------|
-| **Conservative** | $2,620-$5,616 | $14,227-$20,966 | $16,847-$26,582 |
-| **Moderate** | $4,490-$8,985 | $20,966-$35,942 | $25,456-$44,927 |
+| Scenario | Business | Consulting | Total |
+|----------|----------|------------|-------|
+| **Conservative** | $2,000-$5,000 | $14,227-$20,966 | $16,227-$25,966 |
+| **Moderate** | $5,000-$10,000 | $20,966-$35,942 | $25,966-$45,942 |
 
 ### 3-Year Projections
 
@@ -254,18 +247,9 @@ Personal Bank Account
 | Year 2 | $50,000 | $90,000 |
 | Year 3 | $100,000 | $180,000 |
 
-### ROI Analysis
-
-**Initial Investment**: $3,898 - $7,498
-
-| Timeframe | Conservative ROI | Moderate ROI |
-|-----------|------------------|--------------|
-| Year 1 | 225% | 599% |
-| 3 Years | 2,400% | 3,735% |
-
 ---
 
-## Critical Dates & Deadlines
+## Critical Dates &amp; Deadlines
 
 ### Immediate (Within 7 Days)
 - [ ] Capital deployment and transfers
@@ -274,7 +258,6 @@ Personal Bank Account
 
 ### Short-Term (Within 30 Days)
 - [ ] Banking setup complete
-- [ ] First trade executed
 - [ ] Consulting operations launched
 - [ ] Insurance coverage obtained
 
@@ -311,7 +294,7 @@ Personal Bank Account
 
 ---
 
-## Emergency Contacts & Resources
+## Emergency Contacts &amp; Resources
 
 ### Wyoming Secretary of State
 - **Website**: https://wyobiz.wyo.gov/
@@ -329,14 +312,11 @@ Personal Bank Account
 
 ## Frequently Asked Questions
 
-**Q: Why separate trading from consulting?**
-A: Protects trading capital from consulting liability. If clients sue Hlpfl Co, Zaitsev's trading assets remain protected.
+**Q: Why separate investments from consulting?**
+A: Protects investment capital from consulting liability. If clients sue Hlpfl Co, Zaitsev's investment assets remain protected.
 
 **Q: Do I need to register Zaitsev LLC in Ohio?**
 A: Yes, for maximum protection and compliance. The $99 annual cost is minimal compared to potential penalties.
-
-**Q: Should I make the MTM election?**
-A: Depends on trading volume. Consult your CPA before April 15. Can save significant SE tax but has trade-offs.
 
 **Q: How do I move money between entities?**
 A: Hlpfl Co distributes profits to Zaitsev (its owner) as member distributions. Typically not taxable events.
@@ -360,18 +340,18 @@ A: Yes, but maintain proper separation between personal and entity activities.
 
 ### Month 1-3
 - [ ] Both entities fully operational
-- [ ] Trading activities generating profit
+- [ ] Business activities generating profit
 - [ ] Consulting clients acquired
 - [ ] Compliance systems in place
 
 ### Month 4-12
-- [ ] Consistent monthly trading profits
+- [ ] Consistent monthly business profits
 - [ ] Growing consulting revenue
 - [ ] HLPFL investment decision made
 - [ ] Tax optimization strategies implemented
 
 ### Year 2-3
-- [ ] Trading capital grown significantly
+- [ ] Business capital grown significantly
 - [ ] Consulting business scaled
 - [ ] Investment portfolio diversified
 - [ ] Financial independence progressing
@@ -380,7 +360,7 @@ A: Yes, but maintain proper separation between personal and entity activities.
 
 **Document Version**: 1.0  
 **Last Updated**: January 2025  
-**Contact**: [Your Contact Information]
+**Contact**: Jim Rockel - founder@hlpfl.org
 
 ---
 

@@ -4,7 +4,7 @@
 
 **THIS AMENDMENT TO OPERATING AGREEMENT** (this "Amendment") is made and entered into as of [Date], by and between:
 
-**ASSIGNOR**: [Your Name], an individual ("Assignor")
+**ASSIGNOR**: Noah Rank, an individual ("Assignor")
 
 **ASSIGNEE**: Zaitsev LLC, a Wyoming limited liability company ("Assignee")
 
