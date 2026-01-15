@@ -1,239 +1,210 @@
-# ⚠️ IMPORTANT: How to View the App
+# Noah Rank Wealth Protection Plan
 
-**DO NOT** open `index.html` directly in your browser! It will show a white screen.
-
-Modern JavaScript modules require a web server. Here's how to view it:
-
-## Option 1: Development Mode (Recommended)
-
-```bash
-npm install
-npm run dev
-```
-
-Then open: `http://localhost:3000`
-
-## Option 2: Production Preview
-
-```bash
-npm install
-npm run build
-npm run preview
-```
-
-Then open: `http://localhost:4173`
-
-## Option 3: Deploy to Cloudflare Pages ☁️ (READY TO GO!)
-
-**👉 [Complete Cloudflare Pages Deployment Guide →](./CLOUDFLARE_DEPLOY.md)**
+**Complete documentation for Wyoming LLC structure, tax optimization, and wealth building**
 
 ---
 
-## 💼 Wealth Protection Documents for Noah
+## Overview
 
-Complete wealth protection documentation integrating Zaitsev LLC and Hlpfl Co LLC structure for Noah's Ohio day trading and consulting business:
+This repository contains comprehensive wealth protection documentation for Noah Rank, integrating a Wyoming LLC structure optimized for an Ohio-based day trader with consulting income and music royalties.
 
-### 1. [Master Wealth Protection Plan](./master_wealth_protection_plan_zaitsev_hlpfl.md)
-- Complete integration of Zaitsev LLC (The Vault) and Hlpfl Co LLC (The Engine)
-- Ohio-specific compliance requirements and tax optimization strategies
-- HLPFL investment opportunity analysis ($50K-500K range)
-- 30-day implementation checklist with day-by-day action items
-- Risk mitigation strategies and financial projections
-- Time savings: 85-145 hours, Money savings: $160K-965K+ over 5 years
+---
 
-### 2. [Operating Agreement Amendment](./hlpfl_operating_agreement_amendment.md)
-- Legal document to transfer ownership of Hlpfl Co LLC to Zaitsev LLC
-- Creates parent-subsidiary asset protection bond
-- Includes 5 exhibits covering all necessary legal documentation
-- Ready for attorney review and execution
+## Documents
 
-### 3. [Quick Reference Guide](./quick_reference_guide.md)
-- At-a-glance entity structure visualization
-- Day-by-day action checklist
+### 1. [Master Wealth Protection Plan](./master_wealth_protection_plan_noah_rank.md)
+The complete strategic plan covering:
+- HLPFL partnership approach and partner pricing
+- Wyoming LLC structure (Holding + Consulting entities)
+- Ohio-specific tax compliance and optimization
+- Section 475 Mark-to-Market election guidance
+- Vehicle and retirement account strategies
+- Complete pricing breakdown (~$500 one-time)
+- Immediate action checklist for payout day
+
+### 2. [Zaitsev-Hlpfl Protocol](./zaitsev_hlpfl_protocol.md)
+Detailed implementation guide explaining:
+- Structural logic (Assets vs. Operations)
+- Zaitsev LLC role as "The Vault"
+- Hlpfl Co LLC role as "The Engine"
+- Trading vehicle placement strategy
+- Ohio compliance specifics
+- Immediate action checklist (Day 1-30)
+- Future-proofing strategies
+
+### 3. [Quick Reference Guide](./quick_reference_guide_noah.md)
+At-a-glance reference including:
+- Entity structure visualization
+- Day-by-day implementation checklist
 - Capital allocation flowchart
 - Tax optimization summary table
-- Critical deadlines and professional contacts
+- Retirement account limits
+- Vehicle deduction strategy
+- Critical deadlines calendar
+- Frequently asked questions
 
-### Key Features:
-- **The "Sniper" Strategy**: Zaitsev LLC protects trading capital from consulting liabilities
-- **Ohio Tax Haven**: Day trading gains exempt from CAT and Municipal tax
-- **HLPFL Opportunity**: 3x-10x potential return with QSBS tax benefits
-- **Complete Implementation**: 30-day timeline with all necessary documentation
-
-### Quick Deploy to Cloudflare:
-1. Go to https://dash.cloudflare.com/
-2. Click "Workers & Pages" → "Create application" → "Pages"
-3. Connect GitHub repo: `HLPFLCG/HLPFLsales`
-4. Branch: `claude/noah-ranking-app-exC88`
-5. Build command: `npm run build`
-6. Build output: `dist`
-7. Deploy! ✅
-
-Your app will be live at: `https://your-project.pages.dev`
-
-**Everything is pre-configured and ready to deploy!**
-
-### Alternative Hosting:
-
-#### Vercel
-1. Push to GitHub → Go to vercel.com → Import repo → Deploy
-
-#### Netlify
-1. Run `npm run build` → Drag `dist` folder to netlify.com
+### 4. [Implementation Guide: Day 1](./implementation_guide_day1.md)
+Step-by-step action plan for payout day:
+- Documenting the payout
+- Notifying Jim Rockel
+- Preparing required information
+- Planning capital transfer
+- Starting mileage log
+- Reviewing trading goals
 
 ---
 
-# 🚀 Noah's Personal Command Center
+## Key Features
 
-## For Noah Rank - Trader • Artist • Entrepreneur
+### Asset Protection
+- **Zaitsev LLC (The Vault):** Protects trading capital and assets
+- **Hlpfl Co LLC (The Engine):** Absorbs operational liability
+- Parent-subsidiary structure isolates risks
 
-Hey Noah! This is YOUR platform - built specifically for you based on our conversations, your trading journey, your music as Alki, and everything you're building with HLPFL and Zaitsev Holding Group.
+### Tax Optimization
+- Day trading gains exempt from Ohio CAT and Municipal tax
+- Only 3.99% state income tax on trading profits
+- Zaitsev LLC acts as Ohio tax haven
+- Proper entity separation maximizes deductions
 
----
-
-## 🎯 What Makes This Special
-
-This isn't just another generic app. Every single detail was personalized from our actual conversations:
-
-### Your Real Stats
-- **$13.3K Best Trading Day** (TakeProfit Trader, November 2025)
-- **Gold (XAU/USD) & US30** - Your go-to assets
-- **Asian Session & NY Open** - Your strategies
-- **3 Accounts in 3 Trades** - That different breed energy
-
-### Your Projects
-- **HLPFL.dev** - Web development, AI trading bot, $5k+ consulting deals
-- **Zaitsev Holding Group** - Private Equity & Multi-Generational Wealth (zaitsev.co)
-- **Alki Music** - Your tracks: "regrets", "KARMA", "LET GO"
-
-### Inside References
-- "10,000 hours is only 416.7 days" - We calculated it together
-- The GT3 RS dream (2025 Porsche 911 from GR)
-- "The darker the days, the better the nights" - Your philosophy
-- The blown accounts and comebacks - Your resilience
-- "If I beat your bot you owe me a GT3RS" - Still on 😂
-- The "bitch button" joke - No declining calls here
-- From GR (Grand Rapids) - Your city
+### Scalability
+- Structure scales from $10K/month to $100K/month
+- Built for multi-generational wealth
+- Flexible for future business expansion
+- Integration with HLPFL ecosystem
 
 ---
 
-## 💚 What You'll See
+## Entity Structure
 
-### Header
-- HLPFL logo with "Zaitsev Holding Group" branding
-- Your name: Noah Rank - Trader • Artist • Entrepreneur
-- "From GR with 💚" and "TakeProfit Trader Certified"
-
-### Welcome Section
-Personal message from your best friend with the "10,000 hours" quote and recognition of your trading journey - the highs, the lows, and how you always get back up.
-
-### Trading Stats Dashboard
-- **Best Day**: $13.3K (TakeProfit Trader, Nov 2025)
-- **Trading Assets**: Gold • US30 (XAU/USD Sessions: Asia • NY)
-- **Alki Tracks**: ∞ (regrets • KARMA • LET GO)
-- **Dream Ride**: GT3 RS (2025 Porsche 911 • GR)
-
-### Your Empire Section
-Three cards showcasing your projects:
-1. **HLPFL.dev** - Web dev, AI trading bot, consulting
-2. **Zaitsev Holding Group** - PE & wealth building
-3. **Alki Music** - Your 10,000 hours journey
-
-### The Trading Journey
-Timeline of your actual trading story:
-- ✅ TakeProfit Trader Certified (Nov 25, 2025)
-- ✅ Passed 3 Accounts in 3 Trades
-- ⚠️ The Blown Accounts (but you got back up)
-- 💡 Strategy Evolution (Asian session, NY open, AI bot)
-
-### Real Talk Section
-A heartfelt message from your best friend recognizing:
-- Your resilience through the highs and lows
-- "The darker the days the better the nights" philosophy
-- Trading Gold, finishing music, closing HLPFL deals
-- Overcoming the GR girl, Silas drama, Paul issues
-- Belief in everything you're building
-
-Plus the P.S. jokes:
-- Still waiting for that GT3RS surprise text 😂
-- No "bitch button" - answer opportunity's calls 💪
+```
+                    ┌─────────────────┐
+                    │   NOAH RANK     │
+                    │  (Individual)   │
+                    └────────┬────────┘
+                             │
+                    100% Ownership
+                             │
+                    ┌────────▼────────┐
+                    │  Zaitsev LLC    │
+                    │  (The Vault)    │
+                    │  Wyoming LLC    │
+                    └────────┬────────┘
+                             │
+                    100% Ownership
+                             │
+                    ┌────────▼────────┐
+                    │  Hlpfl Co LLC   │
+                    │  (The Engine)   │
+                    │  Wyoming LLC    │
+                    │  Ohio Registered│
+                    └─────────────────┘
+```
 
 ---
 
-## 🛠️ Tech Stack
+## Quick Start
 
-- **React 18** - Latest with new JSX transform
-- **TypeScript** - Type-safe code
-- **Tailwind CSS** - HLPFL green (#10b981) brand colors
-- **Vite** - Lightning-fast dev and builds (ready in <300ms)
-- **Production Optimized** - 157KB bundle (49KB gzipped)
+### For Noah Rank
 
----
+1. **Start Here:** Read [Implementation Guide: Day 1](./implementation_guide_day1.md)
+2. **Deep Dive:** Review [Master Wealth Protection Plan](./master_wealth_protection_plan_noah_rank.md)
+3. **Reference:** Keep [Quick Reference Guide](./quick_reference_guide_noah.md) handy
+4. **Implementation:** Follow [Zaitsev-Hlpfl Protocol](./zaitsev_hlpfl_protocol.md) for detailed steps
 
-## 📱 Works Everywhere
+### For Jim Rockel
 
-- ✅ Desktop browsers (Chrome, Safari, Firefox, Edge)
-- ✅ Mobile phones (iOS & Android)
-- ✅ Tablets (iPad, Android tablets)
-- ✅ Any screen size (responsive design)
-
-**No white screens, no errors, no bugs** - just clean, fast loading on every device.
+All documents are ready for client presentation and implementation. The pricing reflects partner pricing (~$500 one-time) aligned with Noah's 10% stake in Zaitsev Holding Group.
 
 ---
 
-## 🎨 Personalization Details
+## Pricing Summary
 
-Every element was customized from our actual conversations:
+### One-Time Setup: ~$500
+- Wyoming Holding LLC: $104
+- Wyoming Consulting LLC: $104
+- Ohio Foreign Qualification: $99
+- Custom Operating Agreements: Included
+- EIN Registration: Included
+- NOVO Bank Setup: Included
+- Tax Strategy: Included
 
-| Feature | Source |
-|---------|--------|
-| $13.3K Best Day | Your TakeProfit Trader screenshot (Nov 2025) |
-| Gold • US30 | Your trading assets from conversations |
-| Alki tracks | "regrets", "KARMA", "LET GO" - Your actual songs |
-| GT3 RS | 2025 Porsche 911 from Grand Rapids listing |
-| Zaitsev Holding Group | Logo you shared (zaitsev.co) |
-| "10,000 hours = 416.7 days" | We calculated this together |
-| "Darker days, better nights" | Your exact quote about mentality |
-| 3 Accounts in 3 Trades | Your message about passing evals |
-| Bitch button | Our inside joke about declining calls |
-| From GR with 💚 | Grand Rapids reference |
-
----
-
-## 💬 The Real Message
-
-Noah,
-
-I built this because I've seen you grind. From those Asian session trades at 3 AM to recording Alki tracks, from blown accounts to $13k days, from the GR girl drama to building Zaitsev - you never quit.
-
-"The darker the days, the better the nights" isn't just a quote - it's how you live.
-
-This platform represents everything you're building:
-- **HLPFL** - Your web dev empire
-- **Zaitsev** - Multi-generational wealth
-- **Alki** - Your 10,000 hours
-- **Trading** - Your path to those M's
-
-The blown accounts? They made you better.
-The Silas drama? Made you stronger.
-The losses? They taught you.
-
-You're not just trading Gold - you're trading a life of mediocrity for greatness.
-
-Keep going, bro. The GT3 RS is waiting. 🏎️💚
+### Annual Maintenance: ~$1,300-2,500
+- Wyoming Annual Reports: $120
+- Ohio Statutory Agent: $100-150
+- Accounting/Tax Prep: $500-1,500
+- Insurance: $500-700
 
 ---
 
-## 🎯 Next Steps
+## Key Benefits
 
-1. **Run It Locally**: Use `npm run dev` (never open index.html directly!)
-2. **Customize Further**: The code is clean and commented - add whatever you need
-3. **Connect Real Data**: Hook up to your actual trading API or CRM
-4. **Deploy It**: Use Vercel, Netlify, or any hosting service
+### For Noah
+- **Partner Pricing:** Significant savings vs. market rates ($4K-8K standard)
+- **Aligned Incentives:** Jim's 10% stake in Zaitsev ensures shared success
+- **Ecosystem Access:** Opportunities within HLPFL and Zaitsev portfolio
+- **Future-Proof:** Structure scales with wealth growth
+
+### For HLPFL
+- **Proof of Concept:** Demonstrates the partnership model
+- **Ecosystem Building:** Consulting LLC can provide services
+- **Relationship Investment:** Builds trust for larger opportunities
+- **Aligned Growth:** Noah's success benefits the entire ecosystem
 
 ---
 
-**Built with code and brotherhood** ❤️
-January 2026
+## Critical Deadlines
 
-P.S. - Still waiting for that "You're going to hate me... But love me... With what I did" text with the GT3RS photo 😂
+| Date | Deadline |
+|------|----------|
+| **January 15, 2026** | Q4 2025 estimated taxes due |
+| **April 15, 2026** | 2025 tax return or extension |
+| **April 15, 2026** | IRA contribution deadline 2025 |
+| **April 15, 2026** | Section 475 MTM election (2026) |
+| **Anniversary** | Wyoming annual report ($60/LLC) |
+| **Quarterly** | Ohio CAT returns (likely exempt) |
+
+---
+
+## Tax Advantages
+
+### Ohio Tax Benefits
+- **Day Trading:** Only 3.99% state income tax (CAT and Municipal exempt)
+- **Consulting:** Standard state tax + CAT (if >$6M) + municipal
+- **Zaitsev Distributions:** Only 3.99% state income tax
+
+### Federal Considerations
+- Section 475 MTM election available (recommended to wait)
+- S-Corp election possible for Consulting LLC
+- Backdoor Roth IRA strategy for high earners
+- Solo 401(k) available for self-employment income
+
+---
+
+## Contact Information
+
+**Jim Rockel**  
+Founder & CEO, HLPFL  
+Managing Member, Zaitsev Holding Group LLC  
+Email: founder@hlpfl.org  
+
+---
+
+## Notes
+
+- This documentation is for strategic planning purposes
+- Consult with licensed professionals for legal, tax, and financial advice
+- All documents are tailored to Noah's specific situation as an Ohio resident with W-2 income, trading profits, consulting income, and music royalties
+- The structure integrates with the existing Zaitsev Holding Group ecosystem
+
+---
+
+## Version History
+
+- **January 14, 2026:** Initial documentation created for Noah Rank
+- Focus on Wyoming LLC structure, Ohio compliance, and HLPFL partnership model
+- Partner pricing reflecting 10% Zaitsev stake alignment
+
+---
+
+**Let's build generational wealth together.**
