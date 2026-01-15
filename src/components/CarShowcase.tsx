@@ -14,8 +14,8 @@ export const CarShowcase = ({ onTopStepClick }: CarShowcaseProps) => {
       <div className="bg-hlpfl-gold/10 px-6 py-4 border-b border-hlpfl-gold/20">
         <div className="flex items-center justify-between flex-wrap gap-4">
           <div>
-            <h3 className="text-xl sm:text-2xl font-bold text-white">The Goal</h3>
-            <p className="text-hlpfl-gold text-sm">Today's Payout Brings This Closer</p>
+            <h3 className="text-xl sm:text-2xl font-bold text-white">Your Next Whip 🔥</h3>
+            <p className="text-hlpfl-gold text-sm">This is what we're working towards, brother</p>
           </div>
           <a
             href="https://topstepx.com"
@@ -42,19 +42,18 @@ export const CarShowcase = ({ onTopStepClick }: CarShowcaseProps) => {
               <div className="absolute inset-0 flex items-center justify-center bg-hlpfl-dark-secondary">
                 <div className="text-center">
                   <div className="w-16 h-16 mx-auto mb-4 border-4 border-hlpfl-gold/30 border-t-hlpfl-gold rounded-full animate-spin" />
-                  <p className="text-gray-400">Loading your future ride...</p>
+                  <p className="text-gray-400">Loading...</p>
                 </div>
               </div>
             )}
 
-            {/* Lexus IS350 Image - Using a professional car image placeholder */}
+            {/* Lexus IS350 Image - Grey F Sport */}
             <img
-              src="https://images.unsplash.com/photo-1621993202323-f438eec934ff?w=1200&h=675&fit=crop&crop=center"
-              alt="2025 Lexus IS350 - Grey Exterior"
+              src="https://www.motortrend.com/uploads/2023/09/2024-lexus-is-350-f-sport-sedan-angular-front.png"
+              alt="2025 Lexus IS 350 F SPORT Design AWD - Grey"
               className={`w-full h-full object-cover transition-opacity duration-500 ${imageLoaded ? 'opacity-100' : 'opacity-0'}`}
               onLoad={() => setImageLoaded(true)}
               onError={(e) => {
-                // Fallback to a gradient placeholder if image fails
                 e.currentTarget.style.display = 'none';
                 setImageLoaded(true);
               }}
@@ -68,12 +67,12 @@ export const CarShowcase = ({ onTopStepClick }: CarShowcaseProps) => {
               <div className="bg-hlpfl-dark/90 backdrop-blur-sm rounded-lg p-4 border border-hlpfl-gold/20">
                 <div className="flex items-center justify-between flex-wrap gap-2">
                   <div>
-                    <h4 className="text-white font-bold text-lg sm:text-xl">2025 Lexus IS350</h4>
-                    <p className="text-gray-400 text-sm">Grey Exterior | F SPORT Design</p>
+                    <h4 className="text-white font-bold text-lg sm:text-xl">2025 Lexus IS 350</h4>
+                    <p className="text-gray-400 text-sm">F SPORT Design AWD | Grey</p>
                   </div>
                   <div className="text-right">
-                    <div className="text-hlpfl-gold font-bold text-lg sm:text-xl">$45,000</div>
-                    <p className="text-gray-400 text-xs">MSRP Starting</p>
+                    <div className="text-hlpfl-gold font-bold text-lg sm:text-xl">$45,860</div>
+                    <p className="text-gray-400 text-xs">MSRP @ Ann Arbor</p>
                   </div>
                 </div>
               </div>
@@ -83,29 +82,43 @@ export const CarShowcase = ({ onTopStepClick }: CarShowcaseProps) => {
           {/* Stats Row */}
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-4">
             <div className="bg-hlpfl-dark-secondary rounded-lg p-3 text-center border border-hlpfl-gold/10">
-              <div className="text-hlpfl-gold font-bold text-lg">311</div>
-              <div className="text-gray-400 text-xs">Horsepower</div>
+              <div className="text-hlpfl-gold font-bold text-lg">311 HP</div>
+              <div className="text-gray-400 text-xs">Plenty of power</div>
             </div>
             <div className="bg-hlpfl-dark-secondary rounded-lg p-3 text-center border border-hlpfl-gold/10">
-              <div className="text-hlpfl-gold font-bold text-lg">5.6s</div>
-              <div className="text-gray-400 text-xs">0-60 MPH</div>
+              <div className="text-hlpfl-gold font-bold text-lg">3.5L V6</div>
+              <div className="text-gray-400 text-xs">Bulletproof engine</div>
             </div>
             <div className="bg-hlpfl-dark-secondary rounded-lg p-3 text-center border border-hlpfl-gold/10">
               <div className="text-hlpfl-gold font-bold text-lg">AWD</div>
-              <div className="text-gray-400 text-xs">Available</div>
+              <div className="text-gray-400 text-xs">Ohio winters ✓</div>
             </div>
             <div className="bg-hlpfl-dark-secondary rounded-lg p-3 text-center border border-hlpfl-gold/10">
-              <div className="text-hlpfl-gold font-bold text-lg">V6</div>
-              <div className="text-gray-400 text-xs">3.5L Engine</div>
+              <div className="text-hlpfl-gold font-bold text-lg">6-Speed</div>
+              <div className="text-gray-400 text-xs">Auto trans</div>
             </div>
+          </div>
+
+          {/* Link to actual listing */}
+          <div className="mt-4 text-center">
+            <a
+              href="https://www.lexusofannarbor.com/auto/new-2025-lexus-is-350-f-sport-design-awd-ann-arbor-mi/114354503/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-hlpfl-gold hover:text-hlpfl-gold-light text-sm underline"
+            >
+              View listing at Lexus of Ann Arbor →
+            </a>
           </div>
         </div>
 
-        {/* Motivational Text */}
-        <div className="mt-6 text-center">
-          <p className="text-gray-300 text-sm sm:text-base">
-            <span className="text-hlpfl-gold font-semibold">Today's $10K payout</span> is the first step.
-            Keep stacking, keep trading, and this becomes reality.
+        {/* Real Talk */}
+        <div className="mt-6 p-4 bg-hlpfl-dark-secondary/50 rounded-lg border border-hlpfl-gold/10">
+          <p className="text-gray-300 text-sm sm:text-base leading-relaxed">
+            <span className="text-hlpfl-gold font-semibold">Real talk:</span> that $10K hitting today?
+            You're looking at maybe 4-5 more payouts to put down on this bad boy at Lexus of Ann Arbor.
+            Keep stacking on TopStepX, stay disciplined, and you'll be pulling up in this thing before you know it.
+            Not if—when.
           </p>
         </div>
       </div>
