@@ -27,6 +27,39 @@ Then open: `http://localhost:4173`
 
 **👉 [Complete Cloudflare Pages Deployment Guide →](./CLOUDFLARE_DEPLOY.md)**
 
+---
+
+## 💼 Wealth Protection Documents for Noah
+
+Complete wealth protection documentation integrating Zaitsev LLC and Hlpfl Co LLC structure for Noah's Ohio day trading and consulting business:
+
+### 1. [Master Wealth Protection Plan](./master_wealth_protection_plan_zaitsev_hlpfl.md)
+- Complete integration of Zaitsev LLC (The Vault) and Hlpfl Co LLC (The Engine)
+- Ohio-specific compliance requirements and tax optimization strategies
+- HLPFL investment opportunity analysis ($50K-500K range)
+- 30-day implementation checklist with day-by-day action items
+- Risk mitigation strategies and financial projections
+- Time savings: 85-145 hours, Money savings: $160K-965K+ over 5 years
+
+### 2. [Operating Agreement Amendment](./hlpfl_operating_agreement_amendment.md)
+- Legal document to transfer ownership of Hlpfl Co LLC to Zaitsev LLC
+- Creates parent-subsidiary asset protection bond
+- Includes 5 exhibits covering all necessary legal documentation
+- Ready for attorney review and execution
+
+### 3. [Quick Reference Guide](./quick_reference_guide.md)
+- At-a-glance entity structure visualization
+- Day-by-day action checklist
+- Capital allocation flowchart
+- Tax optimization summary table
+- Critical deadlines and professional contacts
+
+### Key Features:
+- **The "Sniper" Strategy**: Zaitsev LLC protects trading capital from consulting liabilities
+- **Ohio Tax Haven**: Day trading gains exempt from CAT and Municipal tax
+- **HLPFL Opportunity**: 3x-10x potential return with QSBS tax benefits
+- **Complete Implementation**: 30-day timeline with all necessary documentation
+
 ### Quick Deploy to Cloudflare:
 1. Go to https://dash.cloudflare.com/
 2. Click "Workers & Pages" → "Create application" → "Pages"
