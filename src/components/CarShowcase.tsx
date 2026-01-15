@@ -14,8 +14,8 @@ export const CarShowcase = ({ onTopStepClick }: CarShowcaseProps) => {
       <div className="bg-hlpfl-gold/10 px-6 py-4 border-b border-hlpfl-gold/20">
         <div className="flex items-center justify-between flex-wrap gap-4">
           <div>
-            <h3 className="text-xl sm:text-2xl font-bold text-white">The Goal</h3>
-            <p className="text-hlpfl-gold text-sm">Today's Payout Brings This Closer</p>
+            <h3 className="text-xl sm:text-2xl font-bold text-white">Your Next Whip 🔥</h3>
+            <p className="text-hlpfl-gold text-sm">This is what we're working towards, brother</p>
           </div>
           <a
             href="https://topstepx.com"
@@ -42,19 +42,18 @@ export const CarShowcase = ({ onTopStepClick }: CarShowcaseProps) => {
               <div className="absolute inset-0 flex items-center justify-center bg-hlpfl-dark-secondary">
                 <div className="text-center">
                   <div className="w-16 h-16 mx-auto mb-4 border-4 border-hlpfl-gold/30 border-t-hlpfl-gold rounded-full animate-spin" />
-                  <p className="text-gray-400">Loading your future ride...</p>
+                  <p className="text-gray-400">Loading...</p>
                 </div>
               </div>
             )}
 
-            {/* Lexus IS350 Image - Using a professional car image placeholder */}
+            {/* Lexus IS350 Image */}
             <img
               src="https://images.unsplash.com/photo-1621993202323-f438eec934ff?w=1200&h=675&fit=crop&crop=center"
               alt="2025 Lexus IS350 - Grey Exterior"
               className={`w-full h-full object-cover transition-opacity duration-500 ${imageLoaded ? 'opacity-100' : 'opacity-0'}`}
               onLoad={() => setImageLoaded(true)}
               onError={(e) => {
-                // Fallback to a gradient placeholder if image fails
                 e.currentTarget.style.display = 'none';
                 setImageLoaded(true);
               }}
@@ -69,11 +68,11 @@ export const CarShowcase = ({ onTopStepClick }: CarShowcaseProps) => {
                 <div className="flex items-center justify-between flex-wrap gap-2">
                   <div>
                     <h4 className="text-white font-bold text-lg sm:text-xl">2025 Lexus IS350</h4>
-                    <p className="text-gray-400 text-sm">Grey Exterior | F SPORT Design</p>
+                    <p className="text-gray-400 text-sm">Grey on Grey | F SPORT</p>
                   </div>
                   <div className="text-right">
-                    <div className="text-hlpfl-gold font-bold text-lg sm:text-xl">$45,000</div>
-                    <p className="text-gray-400 text-xs">MSRP Starting</p>
+                    <div className="text-hlpfl-gold font-bold text-lg sm:text-xl">~$45K</div>
+                    <p className="text-gray-400 text-xs">We'll get there</p>
                   </div>
                 </div>
               </div>
@@ -83,29 +82,31 @@ export const CarShowcase = ({ onTopStepClick }: CarShowcaseProps) => {
           {/* Stats Row */}
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-4">
             <div className="bg-hlpfl-dark-secondary rounded-lg p-3 text-center border border-hlpfl-gold/10">
-              <div className="text-hlpfl-gold font-bold text-lg">311</div>
-              <div className="text-gray-400 text-xs">Horsepower</div>
+              <div className="text-hlpfl-gold font-bold text-lg">311 HP</div>
+              <div className="text-gray-400 text-xs">Plenty of power</div>
             </div>
             <div className="bg-hlpfl-dark-secondary rounded-lg p-3 text-center border border-hlpfl-gold/10">
               <div className="text-hlpfl-gold font-bold text-lg">5.6s</div>
-              <div className="text-gray-400 text-xs">0-60 MPH</div>
+              <div className="text-gray-400 text-xs">0-60, not bad</div>
             </div>
             <div className="bg-hlpfl-dark-secondary rounded-lg p-3 text-center border border-hlpfl-gold/10">
               <div className="text-hlpfl-gold font-bold text-lg">AWD</div>
-              <div className="text-gray-400 text-xs">Available</div>
+              <div className="text-gray-400 text-xs">Ohio winters ✓</div>
             </div>
             <div className="bg-hlpfl-dark-secondary rounded-lg p-3 text-center border border-hlpfl-gold/10">
-              <div className="text-hlpfl-gold font-bold text-lg">V6</div>
-              <div className="text-gray-400 text-xs">3.5L Engine</div>
+              <div className="text-hlpfl-gold font-bold text-lg">3.5L V6</div>
+              <div className="text-gray-400 text-xs">Reliable as hell</div>
             </div>
           </div>
         </div>
 
-        {/* Motivational Text */}
-        <div className="mt-6 text-center">
-          <p className="text-gray-300 text-sm sm:text-base">
-            <span className="text-hlpfl-gold font-semibold">Today's $10K payout</span> is the first step.
-            Keep stacking, keep trading, and this becomes reality.
+        {/* Real Talk */}
+        <div className="mt-6 p-4 bg-hlpfl-dark-secondary/50 rounded-lg border border-hlpfl-gold/10">
+          <p className="text-gray-300 text-sm sm:text-base leading-relaxed">
+            <span className="text-hlpfl-gold font-semibold">Real talk:</span> that $10K hitting your account today?
+            That's 4-5 more payouts away from putting a down payment on this thing.
+            Keep grinding on TopStepX, stack those payouts, and we'll have you in this by summer.
+            Not a question of if—just when.
           </p>
         </div>
       </div>
